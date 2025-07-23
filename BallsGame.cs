@@ -30,7 +30,7 @@ public struct Velocity {
     }
 }
 
-public class Game1 : Game
+public class BallsGame : Game
 {
     private GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
@@ -42,7 +42,7 @@ public class Game1 : Game
     public float RoomWidth = 1600;
     public float RoomHeight = 900;
 
-    public Game1()
+    public BallsGame()
     {
         _graphics = new GraphicsDeviceManager(this);
 
