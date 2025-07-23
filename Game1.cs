@@ -8,8 +8,6 @@ using System.Linq;
 
 using fennecs;
 
-using Qualone.Core.Ecs;
-
 namespace Qualone;
 
 public record Ball();
