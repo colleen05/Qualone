@@ -1,0 +1,23 @@
+# Core requirements
+
+- [ ] Lightweight ECS library
+    - [ ] Implement Bevy-style Plugins behaviour on top of it
+- [ ] UI framework
+- [ ] Physics
+- [ ] Player controller
+- [ ] Input abstraction layer
+- [ ] BSP maps utilising ECS
+    - [ ] Entity representation in scene
+    - [ ] Rendering meshes
+    - [ ] Visibility testing
+- [ ] Entity I/O
+- [ ] Networking
+    - [ ] Client / server setup
+    - [ ] Command interchange
+    - [ ] Entity data interchange
+    - [ ] Multi-player support
+- [ ] Quake-style console
+    - [ ] CVars
+    - [ ] Issue events
+    - [ ] Command parsing
+    - [ ] Permissions

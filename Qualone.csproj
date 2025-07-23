@@ -10,6 +10,18 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>Icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <!-- BEGIN -->
+  <ItemGroup>
+    <Compile Remove="Meta\**\*" />
+    <None Remove="Meta\**" />
+    <Content Remove="Meta\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Meta\**">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+  <!-- END-->
   <ItemGroup>
     <None Remove="Icon.ico" />
     <None Remove="Icon.bmp" />
