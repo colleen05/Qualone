@@ -1,6 +1,7 @@
 # Core requirements
 
-- [ ] Lightweight ECS library
+- [ ] ECS
+    - [x] Lightweight ECS library
     - [ ] Implement Bevy-style Plugins behaviour on top of it
 - [ ] UI framework
 - [ ] Physics
